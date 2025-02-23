@@ -1,0 +1,56 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "nikhil",
+      "city": "bhopal"
+    },
+    {
+      "id": "2",
+      "name": "anuj",
+      "city": "indore"
+    },
+    {
+      "id": "3",
+      "name": "anurag",
+      "city": "jabalpur"
+    },
+    {
+      "id": "fa14",
+      "name": "nikhil pandey",
+      "city": "bhopal"
+    },
+    {
+      "id": "b41f",
+      "name": "nikhil pandey",
+      "city": "bhopal"
+    },
+    {
+      "id": "1cd2",
+      "name": "nikhil pandeyyyy",
+      "city": "bhopal"
+    },
+    {
+      "id": "a211",
+      "name": "nikhil pandeyyyy",
+      "city": "bhopal"
+    },
+    {
+      "id": "45db",
+      "name": "nikhil pandeyyyy",
+      "city": "bhopal"
+    },
+    {
+      "id": "9881",
+      "name": "nikhil pandey",
+      "city": "bhopal"
+    },
+    {
+      "id": "56ae",
+      "name": "nikhil pandey",
+      "city": "bhopal",
+      "mobile": "737373737",
+      "salary": "1p202020"
+    }
+  ]
+}
