@@ -4,12 +4,12 @@ import { useState } from "react";
 
 const Search=()=>{
 const [input,setInput]=useState("");
-const [mydata, setMydata]= useState({})
+const [mydata, setMydata]= useState([])
 const handelSubmit=async()=>{
-    let api =`http://localhost:3000/students/${input}`;
-    let request= await axios.get(api);
-    console.log(request.data);
-    setMydata(request.data)
+    let api =`http://localhost:3000/students/?name=${input}`;
+    let response= await axios.get(api);
+    console.log(response.data);
+    setMydata(response.data);
 
 
 }
@@ -36,7 +36,7 @@ const ans=mydata.map((key)=>{
     
     return(
     <>
-   <input type="search" value="search" onChange={(e)=>{setInput(e.target.value)}} />
+   <input type="search" value={input} onChange={(e)=>{setInput(e.target.value)}} />
    <button onClick={handelSubmit}>Search</button>
 
    <table>
@@ -49,9 +49,10 @@ const ans=mydata.map((key)=>{
 
 
     </tr>
+    {ans}
    </table>
 
-
+       
     
     </>
     )

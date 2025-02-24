@@ -7,7 +7,7 @@ import Insert from "./pages/insert";
 import Display from "./pages/display";
 import Search from "./pages/search";
 import Update from "./pages/update";
-import Practice from "./pages/practice";
+
 
 
 
@@ -31,7 +31,8 @@ function App() {
         <Route path="search" element={<Search/>} />
         <Route path="contact" element={<Contact/>} />
         <Route path="update" element={<Update/>} />
-        <Route path="practice" element={<Practice/>}/>
+        <Route path="search" element={<Search/>}/>
+        
 
 
 
