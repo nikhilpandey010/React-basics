@@ -1,27 +1,6 @@
 {
   "students": [
     {
-      "id": "1",
-      "name": "nikhil",
-      "city": "bhopal",
-      "mobile": 18828888,
-      "salary": 102020
-    },
-    {
-      "id": "2",
-      "name": "anuj",
-      "city": "indore",
-      "mobile": 1848,
-      "salary": 102020
-    },
-    {
-      "id": "3",
-      "name": "anurag",
-      "city": "jabalpur",
-      "mobile": 18828,
-      "salary": 122929
-    },
-    {
       "id": "d56a",
       "name": "hellooworld",
       "city": "bhopal",
@@ -34,6 +13,20 @@
       "city": "bhopal",
       "mobile": "8838383838",
       "salary": "1277272"
+    },
+    {
+      "id": "50b9",
+      "name": "one",
+      "city": "bhopal",
+      "mobile": "848838383",
+      "salary": "8393939339"
+    },
+    {
+      "id": "ce18",
+      "name": "two",
+      "city": "bhopal",
+      "mobile": "63373737",
+      "salary": "4747474"
     }
   ]
 }

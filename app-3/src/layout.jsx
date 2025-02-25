@@ -10,7 +10,7 @@ const Layout=()=>{
     <Link to="search">Search</Link>
     <Link to="update">Update</Link>
     <Link to="contact">Contact</Link>
-    <Link to="practice">practice</Link>
+    <Link to="practice">Practice</Link>
 
 
 
