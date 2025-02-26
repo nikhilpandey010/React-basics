@@ -8,6 +8,7 @@ import Display from "./pages/display";
 import Search from "./pages/search";
 import Update from "./pages/update";
 import Practice from "./pages/practice";
+import Editdata from "./pages/editdata";
 
 
 
@@ -34,9 +35,10 @@ function App() {
         <Route path="update" element={<Update/>} />
         <Route path="search" element={<Search/>}/>
         <Route path="practice" element={<Practice/>}/>
+        <Route path="editdata/:id" element={<Editdata/>}/>
         
 
-
+    
 
 
 
